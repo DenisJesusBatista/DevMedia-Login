@@ -1,0 +1,49 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #009F87;
+	font-family: "lato";
+}
+
+#form-container{
+	width: 300px;
+	padding: 20px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 5px 5px 10px #888888;
+	background: #EFF1F3;
+}
+
+#form-container label{
+	display: block;
+	font-size: 20px;
+}
+
+#form-container input[type=text], #form-container input[type=password]{
+	display: block;
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: #888888;
+	background: #EFF1F3;
+	color: #272727;
+	font-size: 20px;
+}
+
+#form-container input[type=submit]{
+	display: block;
+	width: 100%;
+	margin-top: 40px;
+	border:0px;
+	border-radius: 5px;
+	background: #009F87;
+	color: #fff;
+	font-size: 20px;
+}
